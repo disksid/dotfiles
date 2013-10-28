@@ -131,7 +131,7 @@ set ruler
 " タブや改行を表示 (list:表示)
 set list
 " どの文字でタブや改行を表示するかを設定
-set listchars=tab:>-,precedes:<,extends:>,trail:_,eol:\|
+set listchars=tab:>-,precedes:<,extends:>,trail:_,eol:\$
 " 長い行を折り返して表示 (nowrap:折り返さない)
 set nowrap
 " 常にステータス行を表示 (詳細は:he laststatus)
@@ -150,6 +150,8 @@ set cursorcolumn
 set wildmenu wildmode=list:longest,full
 " コマンドラインの履歴を10000件保存する
 set history=10000
+" 無名レジスタに入るデータを、*レジスタにも入れる。
+set clipboard+=unnamed
 
 "---------------------------------------------------------------------------
 " ファイル操作に関する設定:
