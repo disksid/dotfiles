@@ -1,4 +1,5 @@
 # users generic .zshrc file for zsh(1)
+export TERM=xterm-256color
 
 ## Environment variable configuration
 #
